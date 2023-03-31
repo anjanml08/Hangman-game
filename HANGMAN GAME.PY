@@ -1,7 +1,7 @@
 import random
 def hangman():
 
-    word=random.choice(["pugger", "littlepugger", "tiger", "superman", "thor", "pokemon", "avengers", "savewater", "earth", "anable"])
+    word=random.choice(["pugger", "littlepugger", "tiger", "superman", "thor", "pokemon", "avengers", "savewater", "earth", "annable"])
     validletters = 'abcdefghijklmnopqrstuvwxyz'
     turns =10
     guessmade=""
